@@ -7,6 +7,13 @@ function generatePassword(){
   var specialletters = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', ',', '+'];
   var passwordlength = prompt('How many character do you want in password? (Must be between 8 and 128)');
   
+    while (passwordlength <8 || passwordlength > 128){
+      passwordlength = prompt('How many character do you want in password? (Must be between 8 and 128)');
+    }
+
+    
+  
+  
 
   
 
