@@ -11,6 +11,10 @@ function generatePassword(){
       passwordlength = prompt('How many character do you want in password? (Must be between 8 and 128)');
     }
 
+    var optionlowercase =  confirm('Add lowercase characters?(Yes=ok, No=cancel)');
+    var optionuppercase = confirm('Add uppercase characters?(Yes=ok, No=cancel)');
+    var optionnumbers = confirm('Add number characters?(Yes=ok, No=cancel)');
+    var optionspecialchar= confirm('Add special characters?(Yes=ok, No=cancel)'); 
     
   
   
